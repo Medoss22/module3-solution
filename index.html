@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="hi.css">
+</head>
+<body>
+    <div class="header">Food, LLC</div>
+    <label for="menu-toggle" class="menu-toggle">☰ Menu</label>
+    <input type="checkbox" id="menu-toggle">
+    <div class="mobile-menu">
+        <a href="#Chicken" onclick="document.getElementById('menu-toggle').checked = false;">Chicken</a>
+        <a href="#Beef" onclick="document.getElementById('menu-toggle').checked = false;">Beef</a>
+        <a href="#Sushi" onclick="document.getElementById('menu-toggle').checked = false;">Sushi</a>
+    </div>    
+    <h1>Our Menu</h1>
+    <div class="menu">
+        <div class="menu-item" id="Chicken">
+            <h2>Chicken</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati et ea voluptate laborum illum, est quod hic, accusantium beatae repellat necessitatibus, reprehenderit laudantium quisquam nisi ipsa. Non maiores dignissimos id!</p>
+        </div>
+        <div class="menu-item" id="Beef">
+            <h2>Beef</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dicta molestiae eaque accusantium suscipit, ipsam at ab veniam qui ipsa atque nihil itaque repudiandae maxime voluptatibus. Non repudiandae numquam esse.</p>
+        </div>
+        <div class="menu-item" id="Sushi">
+            <h2>Sushi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sint ipsa temporibus, eius mollitia distinctio numquam nihil, consequuntur vero, eligendi dolorem saepe! Quo corrupti ullam nostrum esse magnam suscipit incidunt!</p>
+        </div>
+    </div>
+</body>
+</html>
