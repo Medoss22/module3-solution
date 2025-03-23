@@ -7,9 +7,12 @@
   
 body {
         text-align: center;
+        background-color: #123524;
+        color: #EFE3C2;
     }
 .header {
-        background: #888;
+        background: #3E7B27;
+        color: #EFE3C2;
         padding: 15px;
         font-size: 24px;
         font-weight: bold;
@@ -20,7 +23,7 @@ body {
         padding: 20px;
     }
 .menu-item {
-        background: #aaa;
+        background: #85A947;
         padding: 15px;
         width: 30%;
     }
@@ -29,19 +32,21 @@ body {
     }
 .mobile-menu {
         display: none;
-        background: #aaa;
+        background: #2d581d;
         text-align: center;
         width: 100%;
     }
 .mobile-menu a {
+        text-decoration: none;
+        color: #EFE3C2;
         display: block;
         padding: 10px;
-        border-bottom: 1px solid #888;
+        border-bottom: 1px solid #3E7B27;
     }
 .menu-toggle {
         display: none;
-        background: #666;
-        color: white;
+        background: #2d581d;
+        color: #EFE3C2;
         padding: 10px;
         cursor: pointer;
     }
@@ -62,4 +67,3 @@ body {
             display: block;
         }
 }
-
